@@ -1,0 +1,3 @@
+---
+  - debug:
+      msg: "env is {{ env }} and pass is {{ env_pass }}"

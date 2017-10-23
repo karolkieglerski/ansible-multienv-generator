@@ -1,0 +1,3 @@
+---
+  - debug:
+      msg: "for app {{ app }} and app pass is {{ app_pass }}"

@@ -1,0 +1,8 @@
+---
+  - hosts: all
+    pre_tasks:
+      - include_tasks: tasks/tasks_pre.yml
+    tasks:
+      - include_tasks: tasks/tasks_post.yml
+    roles:
+      - { role: role1, tag: 'role1' }

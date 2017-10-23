@@ -1,0 +1,8 @@
+---
+  - include_tasks: apply.yml
+    when: 'role_1_purge is not defined or not role_1_purge'
+
+  - include_tasks: purge.yml
+    when:
+      - role_1_purge is defined
+      - role_1_purge
